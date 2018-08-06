@@ -1,0 +1,8 @@
+node_modules
+.travis.yml
+coverage/
+screenshots/
+reports/
+*.tgz
+*.sw*
+*.un~
