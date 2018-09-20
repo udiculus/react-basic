@@ -1,0 +1,90 @@
+@import "variable";
+
+html, body {
+  background: #ffffff !important;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-bottom: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.login-wrapper {
+  height: 100vh;
+  background: #108ee9 !important;
+}
+
+#cms {
+  .main-layout {
+    margin-left: 200px;
+  }
+
+  .section-container {
+    margin: 24px;
+
+    .ant-card {
+      margin:20px 0px;
+    }
+  }
+
+  .section-toolbar {
+    button {
+      font-size: 13px;
+      text-transform: uppercase;
+      i ~ span {
+        margin-right: 8px;
+      }
+    }
+    .pull-right {
+      p {
+        padding-right: 16px;
+        display: inline-block;
+        margin-bottom: 0px;
+      }
+    }
+  }
+
+  .pull-clear-fix {
+    &:before, &:after {
+      clear: both;
+      content: ' ';
+      display: block;
+    }
+  }
+
+  .pull-left {
+    float: left;
+  }
+
+  .pull-right {
+    float: right;
+  }
+
+  .right {
+    text-align: right;
+  }
+
+  .box-list {
+    padding: 24px;
+    background: #ffffff;
+    margin: 18px 24px;
+    margin-bottom: 0px;
+  }
+
+  .ant-layout {
+    height:auto;
+  }
+}
+
+@import "common";

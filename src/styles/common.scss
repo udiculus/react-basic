@@ -1,0 +1,22 @@
+.logo {
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.ant-layout{
+  background: #ffffff !important;
+  .ant-layout-sider{
+    background: $background-menu;
+  }
+}
+
+.ant-menu {
+  .ant-menu-item{
+    margin: 0 !important;
+  }
+}

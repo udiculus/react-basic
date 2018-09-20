@@ -1,8 +1,7 @@
 {
-  "cache": true,
   "extends": "eslint-config-airbnb",
   "env": {
-      "browser": true
+    "browser": true
   },
   "rules": {
     "arrow-body-style": 0,
